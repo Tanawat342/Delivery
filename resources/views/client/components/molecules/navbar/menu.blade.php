@@ -14,4 +14,7 @@
   <li class="nav-item">
     <a href="{{ route('clientCheckOrder') }}" class="nav-link">Check Order</a>
   </li>
+  <li class="nav-item">
+    <a href="{{ route('clientCheckOrder') }}" class="nav-link">login</a>
+  </li>
 </ul>

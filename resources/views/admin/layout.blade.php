@@ -149,6 +149,7 @@
                 @yield('button')
                 </div>
             </div>
+
             <div class="page-content">
                 <section class="row">
                     @yield('content')
