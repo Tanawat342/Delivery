@@ -13,7 +13,7 @@
         <div class="col-md-4 col-12">
           <table class="order-info">
             <tr>
-              <td><b>Status</b></td>
+              <td><b>สถานะ</b></td>
               <td>&nbsp; : &nbsp;</td>
               <td>
                 <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdateStatus" style="background-color:transparent;border:none;">
@@ -61,16 +61,16 @@
           </table>
         </div>
         <div class="col-md-8 col-12 ">
-          <h4>Order Detail</h4>
+          <h4>ข้อมูลสินค้า</h4>
           <div class="table-responsive">
             <table class="table table table-striped table-bordered">
               <thead>
                 <tr>
-                  <td>No</td>
-                  <td>Title</td>
-                  <td>Price</td>
-                  <td>Quantity</td>
-                  <td>Sub Total</td>
+                  <td>ลำดับ</td>
+                  <td>ชื่อสินค้า</td>
+                  <td>ราคา</td>
+                  <td>จำนวน</td>
+                  <td>รวมทั้งหมด</td>
                 </tr>
               </thead>
               <tbody>

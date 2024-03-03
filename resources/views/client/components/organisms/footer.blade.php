@@ -9,19 +9,19 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-6 ">
-          <h6>Company</h6>
-          <a href="/about" class="text-decoration-none"><p>About Us</p></a>
-          <a href="/products" class="text-decoration-none"><p>Product</p></a>
-          <a href="/about#address" class="text-decoration-none text-dark"><p>Address</p></a>
+          <h6>Food Delivery</h6>
+          <a href="/about" class="text-decoration-none"><p>เกี่ยวกับเรา</p></a>
+          <a href="/products" class="text-decoration-none"><p>สินค้า</p></a>
+          <a href="/about#address" class="text-decoration-none text-dark"><p>ที่อยู่</p></a>
         </div>
         <div class="col-lg-3 col-md-3 col-6 ">
-          <h6>Support</h6>
-          <a href="/about#faq" class="text-decoration-none text-dark"><p>FAQ</p></a>
-          <a href="/about#shippingandreturns" class="text-decoration-none text-dark"><p>Shipping & Returns</p></a>
-          <a href="/about#warranty" class="text-decoration-none text-dark"><p>Warranty</p></a>
+          <h6>ฝ่ายสนับสนุน</h6>
+          <a href="/about#faq" class="text-decoration-none text-dark"><p>คำถามที่พบบ่อย</p></a>
+          <a href="/about#shippingandreturns" class="text-decoration-none text-dark"><p>การจัดส่งและการคืนสินค้า</p></a>
+          <a href="/about#warranty" class="text-decoration-none text-dark"><p>การรับประกัน</p></a>
         </div>
         <div class="col-lg-2 col-md-2 col-6 d-flex flex-column">
-          <h6>Contact Us</h6>
+          <h6>ข้อมูลติดต่อ</h6>
           <p class="d-flex align-items-center"><img src="{{ asset('client/img/icon-phone.png') }}" alt="" class="img-fluid me-2">{{$shop->phone}}</p>
           <p class="d-flex align-items-center"><img src="{{ asset('client/img/icon-email.png') }}" alt="" class="img-fluid me-2">hello{!! '@'.str_replace(' ', '', strtolower($shop->name_shop)) !!}.com</p>
           <div class="d-lg-block d-md-block d-none">

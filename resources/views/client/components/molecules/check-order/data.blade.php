@@ -63,16 +63,16 @@
                     </table>
                 </div>
                 <div class="col-md-9 col-12">
-                    <h4>Order Detail</h4>
+                    <h4>ข้อมูลสินค้า</h4>
                     <div class="table-responsive d-md-block d-sm-blovk d-none">
                         <table class="table table table-striped table-bordered">
                         <thead>
                             <tr>
-                                <td>No</td>
-                                <td>Title</td>
-                                <td>Price</td>
-                                <td>Quantity</td>
-                                <td>Sub Total</td>
+                                <td>ลำดับ</td>
+                                <td>ชื่อสินค้า</td>
+                                <td>ราคา</td>
+                                <td>จำนวน</td>
+                                <td>รวมทั้งหมด</td>
                             </tr>
                         </thead>
                         <tbody>

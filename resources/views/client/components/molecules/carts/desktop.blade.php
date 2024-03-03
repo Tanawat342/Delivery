@@ -1,12 +1,12 @@
 <table id="cart" class="table table-hover table-striped">
     <thead>
         <tr>
-            <th style="width:50%">Product</th>
-            <th style="width:10%">Price</th>
-            <th style="width:25">Quantity</th>
-            <th style="width:15%">Subtotal</th>
+            <th style="width:50%">สินค้า</th>
+            <th style="width:10%">ราคา</th>
+            <th style="width:25">จำนวน</th>
+            <th style="width:15%">รวมทั้งหมด</th>
             @if(!request()->routeIs('clientCheckout'))
-                <th style="width:5%">Action</th>
+                <th style="width:5%">ลบ</th>
             @endif
         </tr>
     </thead>
@@ -49,7 +49,7 @@
             @if(!request()->routeIs('clientCheckout'))
                 <a href="{{ url('/') }}" class="btn btn-outline-secondary">
                     <span class="d-flex align-items-center gap-1">
-                        <i class="bi bi-arrow-left"></i> Continue Shopping
+                        <i class="bi bi-arrow-left"></i> ไปช็อปต่อกันเล้ย
                     </span>
                 </a>
             @endif

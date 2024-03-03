@@ -27,8 +27,8 @@
     <h3 class="mt-md-0 mt-4">{!! str_replace('-', ' ', ucwords($dataProductContent->title)) !!}</h3>
     <hr/>
     <h5>${{$dataProductContent->price}}</h5>
-    <p>Category : <a href="{{ route('clientCategoryProducts', $dataProductContent->category->name) }}">{!! str_replace('-', ' ', ucwords($dataProductContent->category->name)) !!}</a></p>
-    <p><b>Description</b></p>
+    <p>หมวดหมู่ : <a href="{{ route('clientCategoryProducts', $dataProductContent->category->name) }}">{!! str_replace('-', ' ', ucwords($dataProductContent->category->name)) !!}</a></p>
+    <p><b>คำอธิบาย</b></p>
     <div class="form-group">
         <textarea class="form-control autosize" readonly>{{$dataProductContent->desc}}</textarea>
     </div>
@@ -39,7 +39,7 @@
         <input type="text" value="1" id="count" class="btn btn-outline-primary font-secondary" disabled>
         <input type="button" value="+" id="plus" data-stok="{{$dataProductContent->stock}}" onclick="plus()" class="btn btn-outline-primary">
     </div>
-    <button class="btn btn-primary btn-small font-secondary mt-4 add-to-cart" data-id-product="{{$dataProductContent->id}}" data-quantity="1">Add to cart</button>
+    <button class="btn btn-primary btn-small font-secondary mt-4 add-to-cart" data-id-product="{{$dataProductContent->id}}" data-quantity="1">เพิ่มตะกร้า</button>
     @endif
 </div>
 @push('js')
